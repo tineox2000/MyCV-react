@@ -3,24 +3,19 @@ import "./Habilities.scss";
 
 const Habilities = ({habilities}) => {
   return (
-    <div>
-    <div className='habilities card'>
+    <div className='card'>
+    <div className= 'habilities'>
      <h3>Habilidades</h3>
+    </div>
     {habilities.map((item) => {
       return (
           <div key={JSON.stringify(item)}>
-              <p>{item.html}</p>
-              <p>{item.css}</p>
-              <p>{item.react}</p>
-              <p>{item.angularJS}</p>
-              <p>{item.mongoDB}</p>
-              <p>{item.php}</p>
-              <p>{item.sql}</p>
+              <button className='item-habilities'>{item}</button>
           </div>
       );
-    })};
+    })}
+  
    </div>
-  </div>
 );
 };
 

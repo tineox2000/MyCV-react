@@ -1,0 +1,29 @@
+.item-habilities{
+    text-align: center;
+}
+
+.item-habilities{
+    // border-radius: 5px;
+    // background-color: rgb(243, 246, 246);
+    // margin: 10px;
+    border-radius: 5rem;
+  // background-color: rgb(243, 246, 246);
+  background: #444;
+  margin: 20px;
+//   font-weight: semibold;
+  color: #eee;
+  font-size: 1rem;
+  padding: 0.2rem 1rem;
+  border: 2px solid #eee;
+  transition: all ls ease;
+  cursor: pointer;
+//   box-shadow: 5rem .5rem 1rem #ccc;
+
+  }
+
+.habilities{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
