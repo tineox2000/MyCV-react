@@ -9,9 +9,16 @@ const Education = ({ education }) => {
         {education.map((item) => {
           return (
             <div key={JSON.stringify(item)}>
-              <h4 className="name"> {item.name}</h4>
-              <p>{item.where}</p>
-              <p> {item.date}</p>
+              <h4 className="name"> {item.name1}</h4>
+              <div className="div-education">
+              <img className="icon" src={item.photo} alt="logo-upgrade" />
+              <p>{item.where1}</p>
+              </div>
+              <div className="div-education">
+              <img className="icon" src="./iconCalend.png" alt="icono-calendario"/>
+              <p> {item.date1}</p>
+              </div>
+              
             </div>
           );
         })}

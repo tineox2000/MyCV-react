@@ -23,14 +23,16 @@ export const CV = {
     ],
     education: [
       {
-        name: "■ Bootcamp Programación Full Stack Developer",
-        date: "2022",
-        where: " Upgrade-Hub",
+        name1: "■ Bootcamp Programación Full Stack Developer",
+        photo: "/logoUpgrade.png",
+        date1: "07/2022 - 09/2022",
+        where1: " Upgrade-Hub",
       },
       {
-        name: "■ Grado en RRLL y RRHH",
-        date: "2010-2014",
-        where: " Universidad Pablo de Olavide (Sevilla)",
+        name1: "■ Grado en RRLL y RRHH",
+        photo: "/logoUniversidad.png",
+        date1: "09/2010 - 02/2014",
+        where1: " Universidad Pablo de Olavide (Sevilla)",
       },
     ],
     experience: [
@@ -38,6 +40,7 @@ export const CV = {
         name: "Técnico de RRHH",
         date: "06/2014 – 02/2022",
         where: "■ Ditecsa.SA    ■ ICSS Contact Center    ■ Migasa.SA (Grupo Ybarra)    ■ Aldi Supermercados.SLU    ■ Montrel.SA.",
+        // where: "Ditecsa",
         description:
           "Durante el periodo indicado he realizado todas las funciones propias del Dpto de Recursos Humanos de las empresas mencionadas.",
       },

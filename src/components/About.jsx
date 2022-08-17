@@ -5,7 +5,10 @@ const About = ({aboutMe}) => {
   return (
     <div className='about'>
       <div className="card">
+      <div className='aboutMe'>
       <h3>Sobre mi</h3>
+      </div>
+      
       {aboutMe.map((item) => {
         return (
           <div key={item.info}>

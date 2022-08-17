@@ -1,6 +1,15 @@
 .div-calend{
     display: flex;
-    flex-direction: row;
-    text-align: center;
     justify-content: center;
+    align-items: center;;
+}
+
+.expLab{
+    margin: 50px;
+}
+
+div.experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
