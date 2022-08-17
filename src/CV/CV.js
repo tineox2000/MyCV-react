@@ -29,6 +29,12 @@ export const CV = {
         where1: " Upgrade-Hub",
       },
       {
+        name1: "■ Curso de Actividades de Gestión Administrativa con Certificado de Profesionalidad",
+        photo: "/c.webp",
+        date1: "03/2014 - 12/2014",
+        where1: " Cefoec ",
+      },
+      {
         name1: "■ Grado en RRLL y RRHH",
         photo: "/logoUniversidad.png",
         date1: "09/2010 - 02/2014",

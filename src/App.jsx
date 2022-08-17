@@ -65,6 +65,9 @@ function App() {
             <div className="div-footer">
             <img className="icon-footer" src="https://img.icons8.com/small/344/whatsapp.png" alt="icon-whathsapp" /><p>WhathsApp</p>
             </div>  
+            <div className="div-footer">
+            <img className="icon-footer" src="https://img.icons8.com/small/344/email.png" alt="icon-@" /><p>GMail</p>
+            </div>  
         </footer>
       </div>
     </div>
